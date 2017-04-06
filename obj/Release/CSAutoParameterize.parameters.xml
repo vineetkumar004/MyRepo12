@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MS_TableConnectionString-Web.config Connection String" description="MS_TableConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:demoserveruniversity.database.windows.net,1433;Initial Catalog=demobd1;User ID=vineet@demoserveruniversity;Password=Password@123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\vineet\ kumar\\Documents\\GitHub\\MyUniversityRepo\\ContosoUniversity\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_TableConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="ContosoUniversity.DAL.SchoolContext-Web.config Connection String" description="ContosoUniversity.DAL.SchoolContext Connection String used in web.config by the application to access the database." defaultValue="ContosoUniversity.DAL.SchoolContext_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\vineet\ kumar\\Documents\\GitHub\\MyUniversityRepo\\ContosoUniversity\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ContosoUniversity.DAL.SchoolContext']/@connectionString" />
+  </parameter>
+  <parameter name="ContosoUniversity.DAL.SchoolContext_DatabasePublish-Web.config Connection String" description="ContosoUniversity.DAL.SchoolContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="ContosoUniversity.DAL.SchoolContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\vineet\ kumar\\Documents\\GitHub\\MyUniversityRepo\\ContosoUniversity\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ContosoUniversity.DAL.SchoolContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

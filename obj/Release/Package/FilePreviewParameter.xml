@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="MyUniversityfromVS" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\vineet\ kumar\\Documents\\GitHub\\MyUniversityRepo\\ContosoUniversity\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\vineet\ kumar\\Documents\\GitHub\\MyUniversityRepo\\ContosoUniversity\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ContosoUniversity.DAL.SchoolContext-Web.config Connection String" description="" value="ContosoUniversity.DAL.SchoolContext_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\vineet\ kumar\\Documents\\GitHub\\MyUniversityRepo\\ContosoUniversity\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ContosoUniversity.DAL.SchoolContext']/@connectionString" />
+  </parameter>
+  <parameter name="MS_TableConnectionString-Web.config Connection String" description="MS_TableConnectionString Connection String used in web.config by the application to access the database." value="Data Source=tcp:demoserveruniversity.database.windows.net,1433;Initial Catalog=demodatabase;User ID=vineet@demoserveruniversity;Password=Password@123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\vineet\ kumar\\Documents\\GitHub\\MyUniversityRepo\\ContosoUniversity\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_TableConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
